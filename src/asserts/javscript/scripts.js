@@ -6,7 +6,7 @@ let operators = document.querySelectorAll('#oper')
 
 let buttons = document.querySelectorAll('.btn')
 
-buttons.foreach(btn => btn.addEventListener('click', (btn) => {
+buttons.forEach(btn => btn.addEventListener('click', (btn) => {
     // butn equal pressed operation
     if (btn.target.innerHTML === "=") {
         executedProcessed.innerHTML = eval(inProgress.innerHTML);
