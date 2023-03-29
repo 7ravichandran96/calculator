@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+main {
+    border: 1px solid white;
+    padding: 0;
+    margin: 0 40%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+#result {
+   
+    background: rgb(252, 252, 252);
+    margin: auto;
+    height: 6vh;
+    padding: auto 10px;
+    overflow: hidden;
+}
+
+#resultOut {
+    text-align: end;
+    display: inline-block;
+    color: black;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: auto 10px;
+}
+
+#calculate {
+    overflow: hidden;
+    padding:auto 10px;
+    background: rgb(252, 252, 252);
+    color: black;
+    text-align: end;
+    margin: auto;
+    height: 8vh;
+
+}
+#calculations{
+    padding: auto 10px;
+    font-size: x-large;
+   
+    overflow: hidden;
+}
+
+#calcuations {
+    text-align: end;
+    color: black ;
+    display: inline-block;
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding: 20px 20px;
+}
+
+#operationArea {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 31%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: none;
+    transition: 0.2s;
+    background-color: rgba(181, 211, 196, 0.5);
+    color: bisque;
+}
+
+button:hover {
+    background-color: rgba(102, 158, 130, 0.5);
+    color: rgb(255, 254, 254);
+    transition: 0.2s;
+    transition-delay: 0.1s;
+    box-shadow: 2px 2px 15px 10px rgb(10, 10, 10);
+    
+}
+
+button:active {
+    background-color: rgba(79, 185, 132, 0.5);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+button:focus {
+    background-color: rgba(47, 231, 47, 0.5);
+    color: rgb(5, 5, 5);
+    box-shadow: 2px 2px 15px 10px rgb(243, 242, 242);
+    transition: 0.2s;
+}
+
+
+.plus {
+    margin-top: -11vh;
+    height: 200%;
+   
+}
+
+.equal {
+    margin-top: -11vh;
+    height: 200%;
+    transition: 0.2s;
+
+}
+.equal:hover{
+    background-color: rgb(47, 231, 47);
+    box-shadow: 2px 2px 15px 10px rgb(47,291,47);
+    color: black;
+}
+.equal:focus {
+    background-color: rgb(47, 231, 47);
+    color: rgb(5, 5, 5);
+    transition: 0.2s;
+    transition-delay: 0.1s;
+    box-shadow: 2px 2px 15px 10px rgb(47,291,47);
+}
+
+#clears:hover{
+    box-shadow: 2px 2px 15px 10px rgb(245, 13, 5);
+    background-color: rgb(245, 13, 5);
+}
+#clears:focus {
+    box-shadow: 2px 2px 15px 10px rgb(245, 13, 5);
+    background-color: rgb(245, 13, 5);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    transition-delay: 0.1s;
+
+
+}
+#oper:hover{
+    box-shadow: 2px 2px 15px 10px rgb(255,105,5);
+    background-color: rgb(255, 105, 5);  
+}
+#oper:focus {
+    box-shadow: 2px 2px 15px 10px rgb(255,105,5);
+    background-color: rgb(255, 105, 5);
+    color: rgb(243, 238, 238);
+    transition: 0.2s;
+    transition-delay: 0.1s;
+
+}
+
+@media (max-width: 424px)  {
+    /* Your CSS styles for low-end devices */
+   header h1{
+    font-size: x-large;
+   }
+    
+    main {
+       
+        margin: auto 10%;
+        
+    }
+   
+   .equal{
+    margin-top: -68px;
+   }
+   .plus{
+    margin-top: -68px;
+   }
+  
+   
+   
+
+
+
+   
+
+
+
+}
+  
+
+
+
+@media  (min-width: 425px) and (max-width: 766px)  {
+  
+    main {
+       
+        margin: auto 20%;
+        
+    }
+    
+    .equal{
+        margin-top: -68px;
+       }
+       .plus{
+        margin-top: -68px;
+       }
+      
+  
+  }
+  
+  
+@media (min-width :  767px )and (max-width : 1024px){
+    main {
+       
+        margin: auto 35%;
+        
+    }
+    
+    .equal{
+        margin-top: -68px;
+       }
+       .plus{
+        margin-top: -68px;
+       }
+      
+  
+  }
+  
+
+  
+ 
+  @media only screen and (min-width: 1025px) {
+   
+    main {
+       
+        margin: auto 38%;
+        
+    }
+    
+   .equal{
+    margin-top: -68px;
+   }
+   .plus{
+    margin-top: -68px;
+   }
+      
+    
+   
+   
+    
+  }
+  
