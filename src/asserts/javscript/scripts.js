@@ -56,7 +56,7 @@ buttons = addEventListener('click', (btn) => {
 });
 
 
-console.log("connected")
+
 
 
 
