@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;  
 }
 
 body {
@@ -63,7 +63,6 @@ header h1 {
 #calculations{
     padding: auto 10px;
     font-size: x-large;
-   
     overflow: hidden;
 }
 
@@ -86,7 +85,7 @@ header h1 {
     align-items: center;
     margin: auto;
     width: 100%;
-
+  
 }
 
 button {
@@ -97,6 +96,8 @@ button {
     transition: 0.2s;
     background-color: rgba(181, 211, 196, 0.5);
     color: bisque;
+    cursor: pointer;
+    user-select: none;
 }
 
 button:hover {
